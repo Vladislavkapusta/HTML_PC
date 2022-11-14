@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.a{
+    text-decoration: none;
+    color:inherit;
+}
+header{
+    background-color: lightpink;
+    color:#fff;
+    padding:30px 50px;
+}
+section{
+    padding:30px 50px;
+}
+h1{
+    margin:o;
+    text-align: center;
+    color: #fff;
+}
+.top{
+    height: 100px;
+    background-image: linear-gradient(to top,lightblue,lightpink);
+}
+.bottom{
+    background-image: radial-gradient(circle,lightblue,lightpink);
+    display: flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.item{
+    background-color: darkcyan;
+    height: 70px;
+    width: calc(25% - 15px);
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
